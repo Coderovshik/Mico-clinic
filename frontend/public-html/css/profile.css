@@ -1,0 +1,30 @@
+.appointments, .appointment {
+    list-style-type: none;
+}
+
+.appointments {
+    padding-left: 0;
+}
+
+.appointment {
+    color: white;
+    background-color: #00C6A9;
+    padding: 0.75rem;
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.07);
+}
+
+.appointment:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.appointment-service {
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.07);
+    margin-bottom: 1rem;
+}
+
+.appointment-service-dep {
+    color: #00C6A9;
+}
